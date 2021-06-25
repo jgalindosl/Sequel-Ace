@@ -978,9 +978,6 @@
 /* delete table/view message */
 "Delete %@ '%@'?" = "是否刪除%1$@ '%2$@'？";
 
-/* delete all rows message */
-"Delete all rows?" = "是否刪除所有條目？";
-
 /* table structure : indexes : delete index : error 1553 : delete index and FK button */
 "Delete Both" = "同時刪除";
 
@@ -2188,7 +2185,16 @@
 "Requires 8 bytes storage space. M is the optional display width and does not affect the possible value range. Note: Arithmetic operations might fail for large numbers." = "需要8字節存儲空間。M是可選的顯示寬度，不影響表示值的範圍。注意，對較大的數的代數運算可能發生錯誤。";
 
 /* reset auto_increment after deletion of all rows message */
-"Reset AUTO_INCREMENT after deletion?" = "是否在刪除後重置AUTO_INCREMENT累加值？";
+"Reset AUTO_INCREMENT after deletion\n(only for Delete ALL ROWS IN TABLE)?" = "Reset AUTO_INCREMENT after deletion\n(only for Delete ALL ROWS IN TABLE)?";
+
+/* delete selected row button */
+"Delete Selected Row" = "Delete Selected Row";
+
+/* delete selected rows button */
+"Delete Selected Rows" = "Delete Selected Rows";
+
+/* delete all rows in table button */
+"Delete ALL ROWS IN TABLE" = "Delete ALL ROWS IN TABLE";
 
 /* Restoring session task description */
 "Restoring session..." = "正在恢復會話...";
@@ -3289,7 +3295,7 @@
 "\n\ntime_zone will be set to SYSTEM." = "\n\ntime_zone will be set to SYSTEM.";
 
 /* Menu item title for checking for updates */
-"Check for updates" = "檢查更新";
+"Check for Updates..." = "Check for Updates...";
 
 /* Warning message during connection in case the variable skip-show-database is set to ON */
 "The skip-show-database variable of the database server is set to ON. Thus, you won't be able to list databases unless you have the SHOW DATABASES privilege.\n\nHowever, the databases are still accessible directly through SQL queries depending on your privileges." = "伺服器已將 skip-show-database 設定為 ON。除非你擁有 SHOW DATABASES 權限，否則無法列出資料庫。\n\n視你的權限，你仍然可以透過 SQL 查詢直接存取資料庫。";
@@ -3302,3 +3308,6 @@
 
 /* Info alert message when there are Newer Releases Available */
 "You are currently running the latest release." = "目前的版本已經是最新版。";
+
+/* Alert button, disable the warning when skip-show-database is set to on */
+"Never show this again" = "Never show this again";
